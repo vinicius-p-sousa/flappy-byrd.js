@@ -198,7 +198,7 @@ function criaCanos() {
             
             canos.pares.forEach(function(par) {
                 const Yrandom = par.y
-                const espacamentoEntreCanos = 400
+                const espacamentoEntreCanos = 90
     
                 const canoCeuX = par.x
                 const canoCeuY = Yrandom
