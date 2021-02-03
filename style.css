@@ -1,0 +1,19 @@
+ body{
+    background: #288DF5;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+canvas{
+    border: 1px solid #000000;
+    box-shadow: 3px 4px #353535;
+    display: block;
+    margin-top: 100px;
+}
+#imglogo{
+    position: absolute;
+    margin-top: -5px;
+    top: 5px;
+
+}
