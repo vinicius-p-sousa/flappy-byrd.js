@@ -287,7 +287,7 @@ function criaCanos() {
 const medalha = {
     largura: 44,
     altura: 44,
-    x: 124, 
+    x: 104, 
     y: 136,
     medalhas: [
         { spriteX: 0, spriteY: 78 },//medalha branca
@@ -322,7 +322,7 @@ function criaPlacar() {
         final(){
             contexto.font = '35px "VT323"'
             contexto.fillStyle = '#d7a84c'
-            contexto.fillText(`${placar.pontuacao}`, 290 , 168)
+            contexto.fillText(`${placar.pontuacao}`, 270 , 168)
             placar.pontuacao
         },
         atualiza(){
